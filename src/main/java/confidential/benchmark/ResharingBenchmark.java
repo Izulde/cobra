@@ -48,8 +48,8 @@ public class ResharingBenchmark {
         String commitmentSchemeName = args[6];
 
         newThreshold = oldThreshold;
-        oldN = oldThreshold + 2;
-        newN = newThreshold + 2;
+        oldN = oldThreshold * 3 + 1;
+        newN = newThreshold * 3 + 1;
 
         System.out.println("old t = " + oldThreshold);
         System.out.println("old n = " + oldN);
